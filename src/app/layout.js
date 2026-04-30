@@ -3,6 +3,7 @@ import "./globals.css";
 import Navbar from "@/component/Navbar";
 import Banner from "@/component/Banner";
 import Footer from "@/component/Footer";
+import Topgeneration from "@/component/Topgeneration";
 
 
 
@@ -28,6 +29,7 @@ export default function RootLayout(
       <body className="min-h-full flex flex-col">
         <Navbar/>
         <Banner/>
+        <Topgeneration/>
         <Footer/>
         {children}
         </body>
