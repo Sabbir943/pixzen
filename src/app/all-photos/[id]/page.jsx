@@ -10,7 +10,7 @@ const PhotoDerails =async ({params}) => {
     
     return (
         <Card className="w-full items-stretch md:flex-row">
-      <div className="relative h-[140px] w-full shrink-0 overflow-hidden rounded-2xl sm:h-[120px] sm:w-[120px]">
+      <div className="relative h-35 w-full shrink-0 overflow-hidden rounded-2xl sm:h-[120px] sm:w-[120px]">
         <div className='relative w-full aspect-square '>
         
                         <Image src={expectedPhoto.imageUrl}  alt={expectedPhoto.title}
