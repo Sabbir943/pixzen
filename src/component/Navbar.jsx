@@ -12,7 +12,7 @@ import { Avatar, Button } from "@heroui/react";
 const Navbar =() => {
   const userData=authClient.useSession();
   const users=userData.data?.user;
-  console.log(users)
+
   const handleSignout=async()=>{
   await authClient.signOut();
   }
